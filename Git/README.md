@@ -9,7 +9,7 @@ Git is a free and open source distributed version control system designed to han
 </div>
 
 
-# [Setting git](https://github.com/markdown-it/markdown-it-emoji)
+# [Setting git 🙂](https://github.com/markdown-it/markdown-it-emoji)
 
 | Command | Description |
 | ------- | ----------- |
@@ -19,7 +19,7 @@ Git is a free and open source distributed version control system designed to han
 | <code>git config -l</code>    | Show detail of git settings. |
 | <code>git config --global color.ui true</code>    | Setting color on git. |
 
-# [Git Commands](https://github.com/markdown-it/markdown-it-emoji)
+# [Git Commands 🙃](https://github.com/markdown-it/markdown-it-emoji)
 
 | Command | Description |
 | ------- | ----------- |
@@ -44,7 +44,7 @@ Git is a free and open source distributed version control system designed to han
 | <code>git tag ['tag-name']</code>    | Tags are ref's that point to specific points in Git history. |
 | <code>git tag -a v1.4 -m ['version1.4']</code>    | Command will create a new annotated tag identified with v1.4. |
 
-# [Git-branch - List, create, or delete branches](https://github.com/markdown-it/markdown-it-emoji)
+# [Git-branch - List, create, or delete branches 🙂](https://github.com/markdown-it/markdown-it-emoji)
 
 | Command | Description |
 | ------- | ----------- |
@@ -57,47 +57,36 @@ Git is a free and open source distributed version control system designed to han
 | <code>git checkout -b ['branch-name']</code>    | Create and switch branches. |
 
 
-# [Git TAGS](https://github.com/markdown-it/markdown-it-emoji)
+# [Git Tags 🙂](https://github.com/markdown-it/markdown-it-emoji)
+
+| Command | Description |
+| ------- | ----------- |
+| <code>git tag ['tag-name']</code>    | Create tag. |
+| <code>git tag -l</code>    | List tages. |
+| <code>git tag -d ['tag-name'] </code>    | Delete tag. |
+| <code>git tag -D ['tag-name']</code>    | Forza delete tag. |
+| <code>git checkout ['tag-name']</code>    | Git-checkout - Switch tages or restore working tree files. |
+| <code>git checkout ['SHA']</code>    | Git-checkout - Switch commit. |
+| <code>git checkout -b ['tag-name']</code>    | Create and switch tages. |
+
+💻
 
 ```console
 $ git tag v0.1.0 // create tag
 
 $ git tag -a v0.1.1 // creat tag with comment
 
-$ git tag
+$ git tag // list of tags
 v0.1.0
 
-$ git tag -l
+$ git tag -l // list of tags
 v0.1.0
 
-$ git tag -l "0.1.*" // filter
+$ git tag -l "0.1.*" // filter tags
 v0.1.0
 
 $ git tag -d v0.1.0 // delete tag
 Delete tag 'v0.1.0' (was 1234234u)
 
-$ git show v0.1.0 // show 
+$ git show v0.1.0 // show tags
 ```
-
-
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
