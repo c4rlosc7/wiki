@@ -1,4 +1,59 @@
-# ☕ [Trabajo en Casa](https://github.com/markdown-it/markdown-it-emoji) 
+# ☕ [Work From Home - English](https://github.com/markdown-it/markdown-it-emoji) 
+
+![](https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/expectativa-realidad.png)
+
+Working at home will become a new reality increasingly present in all companies. It is a possibility that thanks to digital transformation allows improving the quality of life of people.
+
+##  [Tips](https://github.com/markdown-it/markdown-it-emoji) 😀
+
+### 1. Set up your `workspace`.
+
+### 2. Set yourself a `routine` and set `fixed schedules`.
+
+### 3. Create a `to-do` list.
+
+### 4. Constantly `communicate` with your peers.
+
+### 5. Take your time to `relax`.
+
+### 6. Maintain `good posture`.
+
+### 7. Use external `microphones` and `headphones`.
+
+### 8. If possible, choose places lit with `natural light`.
+
+### 9. Use an `ethernet connection` for video calls from the computer.
+
+### 10. Use `apps` to organize `tasks`.
+
+### 11. Applications to protect your network and `privatize data (VPN)`.
+
+### 12. Establish a dynamic, `avoid monotony`.
+
+### 13. Boost your `concentration`, use techniques like Pomodoro, `listen to music`.
+
+
+## [Advantage](https://github.com/markdown-it/markdown-it-emoji) 😉
+
+- Geolocalized offshoring.
+- Time-saving. Labor flexibility.
+- Increases productivity 5% - 25%
+- Increases economic savings.
+- Improve liability.
+
+
+## [Apps](https://github.com/markdown-it/markdown-it-emoji) 🙂
+
+- [Slack](https://slack.com/intl/es-co/)
+- [Trello](www.trello.com/)
+- [GSuite](https://gsuite.google.com/)
+- [Asana](https://asana.com/)
+- [Notion](https://www.notion.so/)
+
+
+___
+
+# ☕ [Trabajo en Casa - Español](https://github.com/markdown-it/markdown-it-emoji) 
 
 ![](https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/expectativa-realidad.png)
 

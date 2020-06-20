@@ -69,3 +69,17 @@ BUILD SUCCESSFUL in 2s
 2 actionable tasks: 2 executed
 ```
 
+## [Gradle commans](https://github.com/markdown-it/markdown-it-emoji)
+
+> gradle build
+
+> gradle tasks
+
+> gradle -d <tasks> // debug
+
+> gradle -i <tasks> // info
+
+> gradle -w <tasks> // warning
+
+> gradle -q <tasks> // quiet
+

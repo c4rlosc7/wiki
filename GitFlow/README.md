@@ -31,7 +31,7 @@ Version tag prefix? []
 Hooks and filters directory? [C:/Users/carlmacd/Desktop/Library/.git/hooks]
 ```
 
-## [Create Feature](https://github.com/markdown-it/markdown-it-emoji)
+## [Create a new feature](https://github.com/markdown-it/markdown-it-emoji)
 
 ```console
 $ git checkout develop
@@ -55,7 +55,7 @@ Now, start committing on your feature. When done, use:
      git flow feature finish microservice-architecture
 ```
 
-## [Create Release](https://github.com/markdown-it/markdown-it-emoji)
+## [Create a new release](https://github.com/markdown-it/markdown-it-emoji)
 
 ```console
 $ git flow release start release_0.1.0
@@ -63,7 +63,7 @@ $ git flow release start release_0.1.0
 $ git flow release finish 'elease_0.1.0'
 ```
 
-## [Create Hotfix](https://github.com/markdown-it/markdown-it-emoji)
+## [Create a new hotfix](https://github.com/markdown-it/markdown-it-emoji)
 
 ```console
 $ git flow hotfix start hotfix_branch
