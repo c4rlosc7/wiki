@@ -38,6 +38,8 @@ $ git checkout develop
 
 $ git flow feature start feature_git_flow_summary
 
+$ git push --set-upstream origin feature/feature_git_flow_summary
+
 $ git checkout develop
 
 $ git flow feature finish feature_git_flow_summary
