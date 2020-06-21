@@ -2,37 +2,27 @@ package com.carlos.app.caesar;
 
 public class CaesarCipher {
 
-    public static char[] generatedCipher(String plain, int key) {
-        char[] arrayCharsCipher = new char[plain.length()];
+    final static String PLAIN = "abcdefghijklmnopqrstuvwxyz";
+    static char[] CIPHER = new char[PLAIN.length()];
 
-        for(int count = 0; count < arrayCharsCipher.length; count++){
-            if (key > 25) key = 0;
-            arrayCharsCipher[key] = plain.charAt(count);
-            key++;
-        }
-        return arrayCharsCipher;
-    }
-
-    public static char[] caesarCipher(String text, int key) {
-        text = text.toLowerCase();
-        String plain   = "abcdefghijklmnopqrstuvwxyz";
-        char[] cipher = new char[plain.length()];
-        cipher = generatedCipher(plain, key);
-        char[] textCipher = new char[text.length()];
+    public static char[] caesarCipher(String plainText, int key) {
+        CIPHER = util.generateCipherAlphabet(PLAIN, key);
+        char[] cipherText = new char[plainText.length()];
         
-        for (int index = 0; index < textCipher.length; index++) {
-            if (plain.indexOf(text.charAt(index)) == -1) {
-                textCipher[index] += ' ';
+        for (int index = 0; index < cipherText.length; index++) {
+            int indexLetterCipher = PLAIN.indexOf(plainText.toLowerCase().charAt(index));
+            if (indexLetterCipher == -1) {
+                cipherText[index] += ' ';
                 continue;
             }
-            textCipher[index] = cipher[plain.indexOf(text.charAt(index))];
+            cipherText[index] = CIPHER[indexLetterCipher];
         }
-        return textCipher;
+        return cipherText;
     }
 
     public static void main(String[] args) {
-        // String plainText = "Hello";
-        String plainText = "this is a secret";
+        String plainText = "Hello";
+        // String plainText = "this is a secret";
         char[] cipherText = new char[plainText.length()];
         cipherText = caesarCipher(plainText, 3);
         System.out.println(cipherText);
