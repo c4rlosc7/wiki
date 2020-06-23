@@ -1,13 +1,16 @@
-package com.carlos.app.caesar;
+package com.carlos.app.caesar.domain.model;
+
+import com.carlos.app.caesar.domain.caesar.CipherCaesarImpl;
 
 import java.util.Arrays;
 
-import static com.carlos.app.caesar.Constant.PLAIN;
-
-public class CaesarCipher implements ICaesar {
+public class CaesarCipher extends CipherCaesarImpl {
     public String plainText;
     public char[] cipherText;
     public int key;
+
+    public CaesarCipher() {
+    }
 
     public CaesarCipher(String plainText, int key) {
         this.plainText = plainText;
@@ -45,24 +48,5 @@ public class CaesarCipher implements ICaesar {
                 ", cipherText=" + Arrays.toString(cipherText) +
                 ", key=" + key +
                 '}';
-    }
-
-    @Override
-    public void cipher(CaesarCipher caesarCipher) {
-        Constant.generateCipherAlphabet(caesarCipher);
-        caesarCipher.setCipherText(new char[plainText.length()]);
-        for (int index = 0; index < cipherText.length; index++) {
-            int indexLetterCipher = PLAIN.indexOf(plainText.toLowerCase().charAt(index));
-            if (indexLetterCipher == -1) {
-                cipherText[index] += ' ';
-                continue;
-            }
-            cipherText[index] = Constant.CIPHER[indexLetterCipher];
-        }
-    }
-
-    @Override
-    public char[] decipher(CaesarCipher caesarCipher) {
-        return null;
     }
 }

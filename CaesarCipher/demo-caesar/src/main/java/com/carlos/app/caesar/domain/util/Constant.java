@@ -1,4 +1,6 @@
-package com.carlos.app.caesar;
+package com.carlos.app.caesar.domain.util;
+
+import com.carlos.app.caesar.domain.model.CaesarCipher;
 
 public class Constant {
     public final static String PLAIN = "abcdefghijklmnopqrstuvwxyz";

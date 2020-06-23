@@ -1,4 +1,4 @@
-package com.carlos.app.caesar;
+package com.carlos.app.caesar.endpoint;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
