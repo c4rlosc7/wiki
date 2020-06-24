@@ -9,10 +9,18 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.carlos.app.caesar</groupId>
-	<artifactId>demo-caesar</artifactId>
+	<artifactId>caesar-cipher-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-caesar</name>
+	<name>caesar-cipher-app</name>
 	<description>Demo Caesar project for Spring Boot</description>
+
+	<developers>
+		<developer>
+			<id>c4rlosc7</id>
+			<name>Carlos Andres Martinez</name>
+			<email>c4rlosc7@gmail.com</email>
+		</developer>
+	</developers>
 
 	<properties>
 		<java.version>11</java.version>
