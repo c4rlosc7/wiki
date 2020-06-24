@@ -13,7 +13,7 @@ class CipherCaesarImplTest {
 
     @Test
     @DisplayName("Testing CipherCaesar: plainText: Hello, cipherText: ebiil, key: 3")
-    public void sum() {
+    public void cipher() {
         // Arrange
         caesar.setPlainText("Hello");
         caesar.setKey(3);
@@ -25,6 +25,14 @@ class CipherCaesarImplTest {
 
         // Assert
         assertEquals(expectedValue, result);
+    }
+
+    @Test
+    @DisplayName("Testing DeCipherCaesar: plainText: ebiil, cipherText: hello, key: 3")
+    public void decipher() {
+        // Arrange
+        // Act
+        // Assert
     }
 
 }
