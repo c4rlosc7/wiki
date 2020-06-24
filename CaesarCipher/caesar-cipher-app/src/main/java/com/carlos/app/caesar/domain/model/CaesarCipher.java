@@ -12,7 +12,7 @@ import lombok.ToString;
 @ToString
 public class CaesarCipher extends CipherCaesarImpl {
     public String plainText;
-    public char[] cipherText;
+    public String cipherText;
     public int key;
 
     public CaesarCipher(String plainText, int key) {
