@@ -105,3 +105,4 @@ El __teletrabajo__ se va a convertir en una nueva realidad cada vez más present
 - [Asana](https://asana.com/)
 - [Notion](https://www.notion.so/)
 
+> thank you for reading

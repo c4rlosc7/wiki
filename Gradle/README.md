@@ -83,3 +83,4 @@ BUILD SUCCESSFUL in 2s
 
 > gradle -q <tasks> // quiet
 
+> thank you for reading
