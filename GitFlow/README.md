@@ -24,7 +24,7 @@ Gitflow Workflow is a Git workflow design that was first published and made popu
 
 The hotfix branches are a lot like release branches and feature branches except they're based on master instead of develop. 
 
-![](https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/gitflow-branch-system.png)
+![](https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/gitflow-system.png)
 
 ## [Init git flow](https://github.com/markdown-it/markdown-it-emoji)
 
@@ -69,18 +69,6 @@ $ git push --set-upstream origin feature/feature_git_flow_summary
 $ git checkout develop
 
 $ git flow feature finish feature_git_flow_summary
-
-// Example
-$ git flow feature start microservice-architecture
-Switched to a new branch 'feature/microservice-architecture'
-
-Summary of actions:
-- A new branch 'feature/microservice-architecture' was created, based on 'develop'
-- You are now on branch 'feature/microservice-architecture'
-
-Now, start committing on your feature. When done, use:
-
-     git flow feature finish microservice-architecture
 ```
 
 ## [Create a new release](https://github.com/markdown-it/markdown-it-emoji)
@@ -99,6 +87,6 @@ $ git flow hotfix start hotfix_branch
 $ git flow hotfix finish hotfix_branch
 ```
 
-Source: [atlassian gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+Source: [atlassian gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 🔗
 
 > thank you for reading
