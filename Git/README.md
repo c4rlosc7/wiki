@@ -91,4 +91,44 @@ Delete tag 'v0.1.0' (was 1234234u)
 $ git show v0.1.0 // show tags
 ```
 
+# [Git Cherry pick 🙂](https://github.com/markdown-it/markdown-it-emoji)
+
+| Command | Description |
+| ------- | ----------- |
+| <code>git cherry-pick ['SHA']</code>    | Pick commit |
+
+
+# [Git rebase 🙂](https://github.com/markdown-it/markdown-it-emoji)
+
+| Command | Description |
+| ------- | ----------- |
+| <code>git rebase -i --interactive HEAD~#commits</code>    | rebase commits |
+| <code>git rebase -i --interactive HEAD~#commits</code>    | rebase commits |
+
+
+# [Git log 🙂](https://github.com/markdown-it/markdown-it-emoji)
+
+| Command | Description |
+| ------- | ----------- |
+| <code>git log</code>    | show logs |
+| <code>git log ['file-name']</code>    | show logs |
+| <code>git log --oneline</code>    | show logs a single line |
+| <code>git log --oneline --decorate</code>    | show logs a single line |
+
+
+# [ Export commits txt 🙂](https://github.com/markdown-it/markdown-it-emoji)
+
+> git log > commits.txt
+
+git blame ['file-name']
+
+git reflog
+
+
+
+<br>
+<br>
+<br>
+
+
 > thank you for reading

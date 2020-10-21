@@ -1,0 +1,149 @@
+commit 09ff3abf94aa0df5650c098154e2013d5febb385
+Author: carlos andres martinez <carlos.martinez@ceiba.com.co>
+Date:   Tue Aug 4 20:42:41 2020 -0500
+
+    init with commandline docker
+
+commit c2c739f0e7db17a902e82bc15b21aeaea89dac3e
+Author: carlos andres martinez <carlos.martinez@ceiba.com.co>
+Date:   Mon Aug 3 21:14:53 2020 -0500
+
+    add new item about docker
+
+commit 1959c1d2f4b0dfb713dd9e972ed7394f4de85088
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sun Jun 28 21:11:40 2020 -0500
+
+    new item on articles gitflow
+
+commit 38b66de69ae589c9514c4b765e4dff61a88329a2
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sun Jun 28 16:20:55 2020 -0500
+
+    add thanks you reading
+
+commit 33ae02b454a457b2d414e4b24b5ba3aa56389d6f
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Wed Jun 24 14:35:52 2020 -0500
+
+    add cipher test a, b
+
+commit edcb5097e4ff144593785b8a343b35c6bff65251
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Wed Jun 24 08:36:39 2020 -0500
+
+    fixed pojo with lombok lib
+
+commit 338287bb4ebfe749a0d6570786ad2cd575624103
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Wed Jun 24 08:32:54 2020 -0500
+
+    add a new item caesar cipher
+
+commit f5240f242225fe98c3254cb19235ae76ce98cc3f
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Wed Jun 24 08:25:17 2020 -0500
+
+    add a new item caesar cipher
+
+commit 971255c9a8a3749597f01a6ccdeaf3a9a85dc6c2
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Wed Jun 24 08:18:12 2020 -0500
+
+    add a new item caesar cipher
+
+commit a2353ef40947a9e14fcc247fce3ba9b0e03f700d
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Tue Jun 23 17:12:52 2020 -0500
+
+    add a new item caesar cipher
+
+commit 2c1363bd37d46afef267339fad9c6ca6774bafd0
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sun Jun 21 21:58:22 2020 -0500
+
+    add a new item caesar cipher
+
+commit 68c13b39932819a81cb3ee7516b1ef3ea71ce94e
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sun Jun 21 16:39:09 2020 -0500
+
+    add a new item caesar cipher
+
+commit 3b2d3be51627ce756f5bf42220fea8d638f32d61
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sun Jun 21 14:18:11 2020 -0500
+
+    add a new item caesar cipher
+
+commit fdc686eb49fc142cecb4d463376a91ddf84fbd74
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 23:37:30 2020 -0500
+
+    add a new item caesar cipher
+
+commit b33c025a95a35ed3468630e83c9fd85793950a75
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 23:28:08 2020 -0500
+
+    add a new item caesar cipher
+
+commit 1b9be925e27a84d12459f2db5e63172dda85ae9c
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 13:51:02 2020 -0500
+
+    organizing documents wiki
+
+commit 23900940bb0f248290e40746d70084adafbcda8e
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 13:49:21 2020 -0500
+
+    organizing documents wiki
+
+commit 171624522625630586e8c065cf3bdc0fca88a71d
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 13:38:59 2020 -0500
+
+    organizing documents wiki
+
+commit f8f5c9bfbaa524b385a8ffbe8a4dce3bf9799fe8
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 13:35:39 2020 -0500
+
+    organizing documents wiki
+
+commit f86ec99b049320592c8c953d23e01b5111d40935
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat Jun 20 13:31:59 2020 -0500
+
+    sorting the files
+
+commit f833019377dc1985fe5bd0f41e6d3e093c888de3
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Mon Jun 1 11:35:15 2020 -0500
+
+    getting started with gradle
+
+commit 1aa12bad1a347cd075d43745e88e9c214a0a6531
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat May 23 20:39:00 2020 -0500
+
+    wiki how to use lombok library
+
+commit 4983e54bf921bc65e97aa623c4d2c256070495f8
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat May 23 20:36:56 2020 -0500
+
+    wiki how to use lombok library
+
+commit e0eec1433a50c583c67c780f407d382fa7dcf2a4
+Author: c4rlosc7 <camartinez7@hotmail.com>
+Date:   Sat May 23 20:01:37 2020 -0500
+
+    start with wiki
+
+commit 8b0319c1ec7150226619808ccd3394fedad16036
+Author: Carlos Andres Martinez <camartinez7@hotmail.com>
+Date:   Sat May 23 20:00:14 2020 -0500
+
+    Initial commit
