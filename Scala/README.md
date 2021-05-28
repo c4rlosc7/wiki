@@ -303,5 +303,106 @@ class Cat extends Speaker with TailWagger with Runner {
 ```
 
 
+## Expressions or functions 
+
+```cmd
+scala> def f(x: Int) = x * x
+def f(x: Int): Int
+
+scala> f(2)
+val res0: Int = 4
+```
+
+## Traits
+
+Los Traits son la manera de aplicar este concepto en Scala. Dentro de un Trait podremos colocar cualquier implementación de funciones y/o valores (o hablando en términos de programación orientada a objetos, métodos y/o atributos), esta implementación puede ser mezclada en un solo objeto también (lo que se suele llamar como herencia múltiple en programación orientada a objetos).
+
+```scala
+// Definición de un trait
+trait ejemplo {
+  val valor = 5
+  def funcion(x: Int) = x * x
+}
+
+// Para instanciarse debe usarse un objeto
+object ejemplo extends ejemplo
+```
+
+Aunque los Traits son similares a las clases, se suele preferir en Scala para agrupar código. En vez que tener funciones sueltas, normalmente las agruparemos dentro de Traits.
 
 
+## Try, Either
+
+## Proyecto
+
+- Play Framework, is framework MVC. Play usa una libreria llamada AKKA
+- Akka, implementa el modelo de actores. Diseñado para funcionar de forma asincrona.
+- Slick, es un ORM funcional para conecciones a diversas bases de datos.
+    - Pool de conexiones
+    - Streams por defecto
+    - No bloqueantes
+- Docker.
+
+https://developer.lightbend.com/
+
+https://developer.lightbend.com/start/
+
+https://developer.lightbend.com/start/?group=play
+
+https://developer.lightbend.com/start/?group=play&project=play-scala-seed
+
+Project name: video-play-scala-seed
+
+Documentación playframework: https://www.playframework.com/documentation/2.8.x/Home
+
+## Comandos SBT
+
+```sbt
+> sbt update
+> sbt compile
+> sbt console
+> sbt run
+> sbt start
+> sbt stage
+> sbt dist
+```
+
+## Modelo de actores
+
+Erlang es un lenguaje creado como un proyecto interno de la empresa de telecomunicaciones Ericsson en 1986.  La intención era tener un lenguaje que ayudara a crear más fácilmente sistemas concurrentes y distribuídos, es decir, que pudieran funcionar en muchas maquinas de manera coordinada. El objetivo por supuesto, era el de hacer más fácil la construcción de sistemas que fueran resistentes a los fallos. Los investigadores de Ericsson decidieron implementar el modelo por actores, y los resultados han sido a lo largo de los años, bastante dicientes, puesto que mucha de la infraestructura de comunicación celular, hace uso de este lenguaje.
+
+La base de este modelo, son los actores. Cada actor tiene una bandeja de entrada que puede recibir mensajes para actuar con base en ellos, y los actores tienen la capacidad de enviar mensajes a otros **actores**.
+
+![](modelo_actores.png)
+
+Este modelo tan simple es bastante poderoso, porque permite coordinar distintas funcionalidades entre los diferentes tipos de actor (donde se entiende que un tipo de actor tiene cierto comportamiento y responsabilidades) y pueden haber múltiples actores del mismo tipo.
+
+Existe un coordinador de actores principal (que por supuesto es también un actor), que distribuye el trabajo según el tipo de actor.
+
+Si por alguna razón un actor falla, su coordinador se dará cuenta y puede redirigir el trabajo que falló a un nuevo actor. Si un actor tiene demasiados mensajes y no puede con todos, puede avisar a su coordinador para crear un nuevo actor del mismo tipo que le ayude, y cuando el coordinador detecta que no necesita más algún actor, puede eliminarlo para administrar mejor los recursos.
+
+Todo esto en un contexto donde los actores no necesariamente están en el mismo equipo.
+
+Cuando a Play le llega una petición HTTP, un coordinador de actores crea un actor basado en la lógica que escribimos, si llegan muchas peticiones el sistema de actores crece o decrece según la necesidad, todo esto permite que sin muchas complicaciones de nuestra parte, escribamos aplicaciones web que son altamente resistentes
+
+Leer acerca de **Joe Armstrong**
+
+## Entidad MOVIE
+
+
+| MOVIE | 
+| ------- | 
+| id | 
+| title | 
+| year | 
+| cover | 
+| description | 
+| duration | 
+| contentRating | 
+| source | 
+| tags | 
+
+# Configuración de Slick
+
+Antes de empezar, deberías descargar el template Play Scala Seed desde esta página: 
+https://developer.lightbend.com/start/?group=play&project=play-scala-seed
